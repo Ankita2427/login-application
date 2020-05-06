@@ -34,7 +34,7 @@
         <h3 style="color:green;">Succesfully Login</h3>
         <h1 style="margin-left:150px;color:green;font-weight:bold;">Welcome, ${pageContext.request.userPrincipal.name}</h1>  
         
-       <h2 style=";border:3px solid blue;box-shadow: 0 0 5px blue;height:45px;width:110px;text-align:center;margin-left:50%;pading:10px;"> <a onclick="document.forms['logoutForm'].submit()" style="font-size:25px;color:white;text-decoration:none;">Logout</a></h2>
+       <h2 style="background-color:blue;border:3px solid blue;box-shadow: 0 0 5px blue;height:45px;width:110px;text-align:center;margin-left:50%;pading:10px;"> <a onclick="document.forms['logoutForm'].submit()" style="font-size:25px;color:white;text-decoration:none;">Logout</a></h2>
 
     </c:if>
 
